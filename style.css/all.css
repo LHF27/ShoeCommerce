@@ -1,0 +1,9 @@
+/* 字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+/* 外部樣式 */
+@import url("/style.css/reset.css");
+
+/* 基本樣式 */
+@import url("/style.css/basic.css");
+@import url("/style.css/typography.css");
