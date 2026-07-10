@@ -79,3 +79,11 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+body {
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-16);
+    line-height: var(--lh-150);
+    letter-spacing: var(--ls-default);
+    color: var(--neutral-900);
+}
