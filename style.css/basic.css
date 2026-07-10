@@ -37,7 +37,7 @@
     --ls-default: 0.05em;
 
     /* font-family */
-    --font-main:: 'Noto Sans TC', sans-serif;
+    --font-main: 'Noto Sans TC', sans-serif;
 
     /* font-weight */
     --fw-regular: 400;
@@ -73,6 +73,7 @@
 
 img {
 	vertical-align: middle;
+  max-width: 100%;
 }
 
 a {
