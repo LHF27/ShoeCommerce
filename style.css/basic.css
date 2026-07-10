@@ -89,6 +89,13 @@ body {
     color: var(--neutral-900);
 }
 
+  .container {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding-right: 12px;
+      padding-left: 12px;
+  }
+
 /* 格線系統 */
 .row {
     display: flex;
