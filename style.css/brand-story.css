@@ -1,0 +1,14 @@
+/* header */
+.brand-story-title {
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true");
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: var(--neutral-white);
+    padding-top: 151px;
+    padding-bottom: 151px;
+}
+
+.brand-story-title .h1 {
+    margin-bottom: var(--spacing-m);
+}
