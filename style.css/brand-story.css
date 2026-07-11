@@ -3,7 +3,7 @@
 }
 
 .section-block {
-    margin-bottom: var(--spacing-3xl);
+    padding-bottom: var(--spacing-3xl);
     border-bottom: 1px solid var(--neutral-300);
 }
 
@@ -16,7 +16,6 @@
     color: var(--neutral-white);
     padding-top: 152px;
     padding-bottom: 152px;
-    margin-bottom: var(--spacing-5xl);
 }
 
 /* main */
@@ -46,4 +45,21 @@
 /* main / brand-story__image-wrapper */
 .brand-story__image-wrapper {
     margin-bottom: var(--spacing-l);
+}
+
+/* main / brand-story__intro */
+.brand-story__intro {
+    margin-bottom: var(--spacing-3xl);
+}
+.brand-story__intro__title{
+    margin-bottom: var(--spacing-l);
+}
+
+.brand-story__intro__subtitle {
+    color: var(--primary-400);
+    margin-bottom: var(--spacing-m);
+}
+
+.brand-story__intro p:first-of-type {
+    margin-bottom: var(--spacing-m);
 }
