@@ -1,14 +1,49 @@
+.m-auto {
+    margin: 0 auto;
+}
+
+.section-block {
+    margin-bottom: var(--spacing-3xl);
+    border-bottom: 1px solid var(--neutral-300);
+}
+
 /* header */
-.brand-story-title {
+.brand-story__title {
     background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true");
     background-size: cover;
     background-position: center center;
     text-align: center;
     color: var(--neutral-white);
-    padding-top: 151px;
-    padding-bottom: 151px;
+    padding-top: 152px;
+    padding-bottom: 152px;
+    margin-bottom: var(--spacing-5xl);
 }
 
-.brand-story-title .h1 {
-    margin-bottom: var(--spacing-m);
+/* main */
+.brand-story__main {
+    padding-top: var(--spacing-5xl);
+    padding-bottom: var(--spacing-5xl);
+}
+
+/* main / brand-story__quote */
+.brand-story__quote {
+    text-align: center;
+    margin-bottom: var(--spacing-3xl);
+    background-color: var(--primary-100);
+    padding: var(--spacing-xl);  
+    border-radius: var(--radius-sm);
+}
+
+.brand-story__quote__title {
+    color: var(--primary-400);
+    margin-bottom: var(--spacing-s);
+}
+
+.brand-story__quote p:not(:last-child) {
+    margin-bottom: var(--spacing-xxs);
+}
+
+/* main / brand-story__image-wrapper */
+.brand-story__image-wrapper {
+    margin-bottom: var(--spacing-l);
 }
