@@ -7,8 +7,12 @@
     border-bottom: 1px solid var(--neutral-300);
 }
 
+.title-block {
+    margin-bottom: var(--spacing-l);
+}
+
 /* header */
-.brand-story__title {
+.header {
     background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true");
     background-size: cover;
     background-position: center center;
@@ -19,13 +23,13 @@
 }
 
 /* main */
-.brand-story__main {
+.main {
     padding-top: var(--spacing-5xl);
     padding-bottom: var(--spacing-5xl);
 }
 
-/* main / brand-story__quote */
-.brand-story__quote {
+/* main / quote */
+.quote {
     text-align: center;
     margin-bottom: var(--spacing-3xl);
     background-color: var(--primary-100);
@@ -33,33 +37,61 @@
     border-radius: var(--radius-sm);
 }
 
-.brand-story__quote__title {
+.quote__title {
     color: var(--primary-400);
     margin-bottom: var(--spacing-s);
 }
 
-.brand-story__quote p:not(:last-child) {
+.quote p:not(:last-child) {
     margin-bottom: var(--spacing-xxs);
 }
 
-/* main / brand-story__image-wrapper */
-.brand-story__image-wrapper {
+/* main / image-wrapper */
+.image-wrapper {
     margin-bottom: var(--spacing-l);
 }
 
-/* main / brand-story__intro */
-.brand-story__intro {
+/* main / intro */
+.intro {
     margin-bottom: var(--spacing-3xl);
 }
-.brand-story__intro__title{
-    margin-bottom: var(--spacing-l);
-}
 
-.brand-story__intro__subtitle {
+.intro__subtitle {
     color: var(--primary-400);
     margin-bottom: var(--spacing-m);
 }
 
-.brand-story__intro p:first-of-type {
+.intro p:first-of-type {
     margin-bottom: var(--spacing-m);
 }
+
+/* main / history */
+.history{
+    margin-bottom: var(--spacing-3xl);
+}
+
+.history__list {
+    list-style-type: disc;
+    padding-left: var(--spacing-l);
+}
+
+.history__year {
+    border-right: 1px solid var(--neutral-900);
+    padding-right: var(--spacing-xs);
+    margin-right: var(--spacing-xs);
+}
+
+.history__list li:not(:last-child) {
+    margin-bottom: var(--spacing-s);
+}
+
+/* main / concept */
+.concept__list .concept__item:not(:last-child) {
+    margin-bottom: var(--spacing-s);
+    
+}
+.concept__item {
+    border-left: 3px solid var(--neutral-300);
+    padding-left: var(--spacing-s);
+}
+
