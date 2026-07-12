@@ -1,11 +1,13 @@
 /* 字體 */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
 
-/* 外部樣式 */
-@import url("/style.css/reset.css");
+
 /* bootstrap icon */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
+/* reset */
+@import url("style/reset.css");
+
 /* 基本樣式 */
-@import url("/style.css/basic.css");
-@import url("/style.css/typography.css");
+@import url("style/basic.css");
+@import url("style/typography.css");
