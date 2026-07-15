@@ -105,7 +105,6 @@
 }
 
 .story__item {
-    display: inline-block;
     padding-top: var(--spacing-xs);
     padding-bottom: var(--spacing-xs);
     text-decoration: underline;
