@@ -44,6 +44,7 @@
 /* main */
 .main {
     padding: var(--spacing-xl) 0;
+    margin-bottom: var(--spacing-3xl);
 }
 
 .main h2 {
@@ -94,6 +95,7 @@ li:first-child .main__category__link:hover {
 .main__product-list {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: var(--spacing-3xl);
 }
 
 .main__product-list li:nth-child(-n+6) {
@@ -106,4 +108,34 @@ li:first-child .main__category__link:hover {
 
 .main__product-list h3 {
     margin-bottom: var(--spacing-xxs);
+}
+
+/* main / pagination */
+.pagination {
+    display: flex;
+    gap: var(--spacing-xs);
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .bi {
+    font-size: var(--fs-20);
+}
+
+.page__btn {
+    padding: 8px 15px;
+}
+
+.pagination li:first-child .btn {
+    margin-right: var(--spacing-s);
+}
+
+.pagination li:last-child .btn {
+    margin-left: var(--spacing-s);
+}
+
+.page__active,
+.pagination .btn:hover {
+    font-weight: 500;
+    background-color: var(--primary-300);
 }
