@@ -133,4 +133,5 @@ body {
   background-color: transparent;
   font-family: inherit;
   font-size: inherit;
+  border-radius: var(--radius-sm);
 }
