@@ -127,7 +127,7 @@ body {
 
 /* btn */
 .btn {
-  padding: var(--spacing-s) var(--spacing-2l);
+  padding: var(--spacing-s) var(--spacing-l);
   cursor: pointer;
   border: none;
   background-color: transparent;
