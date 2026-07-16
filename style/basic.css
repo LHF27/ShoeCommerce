@@ -124,3 +124,11 @@ body {
 .col-10 {width: calc(100% / 12 * 10);}
 .col-11 {width: calc(100% / 12 * 11);}
 .col-12 {width: 100%;}
+
+/* btn */
+.btn {
+  padding: var(--spacing-s) var(--spacing-2l);
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
