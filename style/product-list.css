@@ -126,6 +126,15 @@ li:first-child .main__category__link:hover {
     font-size: var(--fs-20);
 }
 
+.btn-prew,
+.btn-next {
+    padding: 10px;
+}
+
+.btn-prew {
+    cursor: default;
+}
+
 .page__btn {
     padding: 8px 15px;
 }
@@ -139,7 +148,7 @@ li:first-child .main__category__link:hover {
 }
 
 .page__active,
-.pagination .btn:hover {
+.pagination .btn:not(:disabled):hover {
     font-weight: 500;
     background-color: var(--primary-300);
 }
