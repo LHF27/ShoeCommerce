@@ -139,3 +139,18 @@ li:first-child .main__category__link:hover {
     font-weight: 500;
     background-color: var(--primary-300);
 }
+
+/* promo-banner */
+.promo-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-200);
+    padding: var(--spacing-l) 0;
+    gap: var(--spacing-l);
+}
+
+.banner__btn {
+    background-color: var(--neutral-900);
+    color: var(--neutral-white);
+}
