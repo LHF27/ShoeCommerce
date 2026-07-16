@@ -73,20 +73,37 @@
 
 
 /* main / main__nav__link */
-.main__nav__link {
+.main__category__link {
     padding: var(--spacing-s) 0;
 }
 
-li:not(:last-child) .main__nav__link {
+li:not(:last-child) .main__category__link {
     margin-bottom: var(--spacing-m);
 }
 
-li:first-child .main__nav__link:hover {
+li:first-child .main__category__link:hover {
     color: var(--primary-500);
 }
 
-.main__nav__active,
-.main__nav__link:hover {
+.main__category__active,
+.main__category__link:hover {
     color: var(--primary-400);
 }
 
+/* main / main__product-list */
+.main__product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__product-list li:nth-child(-n+6) {
+    margin-bottom: var(--spacing-3xl);
+}
+
+.main__product-list img {
+    margin-bottom: var(--spacing-s);
+}
+
+.main__product-list h3 {
+    margin-bottom: var(--spacing-xxs);
+}
