@@ -1,5 +1,5 @@
-/* header */
-.header {
+/* site-header */
+.site-header {
     padding-top: var(--spacing-m);
     padding-bottom: var(--spacing-m);
     display: flex;
@@ -40,8 +40,8 @@
 }
 
 
-/* main */
-.main {
+/* site-main */
+.site-main {
     padding-top: var(--spacing-5xl);
     padding-bottom: var(--spacing-5xl);
 }
@@ -53,7 +53,7 @@
 }
 
 
-/* main / breadcrumb  */
+/* site-main / breadcrumb  */
 .breadcrumb {
     display: flex;
     margin-bottom: var(--spacing-s);
@@ -71,7 +71,7 @@
 }
 
 
-/* main / intro */
+/* site-main / intro */
 .intro {
     margin-bottom: var(--spacing-xl);
 }
@@ -99,7 +99,7 @@
 }
 
 
-/* main / color__options */
+/* site-main / color__options */
 .color__options {
     margin-bottom: var(--spacing-xl);
 }
@@ -124,7 +124,7 @@
 }
 
 
-/* main / size__options */
+/* site-main / size__options */
 .size__options {
     margin-bottom: var(--spacing-3xl);
 }
@@ -159,7 +159,7 @@
 }
 
 
-/* main / product-cta */
+/* site-main / product-cta */
 .product-cta {
     display: flex;
     gap: var(--spacing-xs);
@@ -190,7 +190,7 @@
 }
 
 
-/* main / meta-details */
+/* site-main / meta-details */
 .meta__item {
     padding: var(--spacing-s);
     border-bottom: 1px solid var(--neutral-300);
@@ -247,8 +247,8 @@
     background-color: var(--neutral-700);
 }
 
-/* footer */
-.footer {
+/* site-footer */
+.site-footer {
     padding: var(--spacing-5xl);
     background-color: var(--neutral-100);
 }
