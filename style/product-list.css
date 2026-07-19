@@ -12,16 +12,14 @@
     background-size: cover;
     width: 105px;
     height: 30px;
-    text-indent: 101%;
-    overflow: hidden;
-    white-space: nowrap;
+    padding: var(--spacing-xs) var(--spacing-s);
     margin-right: var(--spacing-3xl);
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .header__nav {
     margin-right: auto;
-}
+}   
 
 .header__nav__list {
     display: flex;
