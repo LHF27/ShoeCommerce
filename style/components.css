@@ -1,0 +1,10 @@
+/* btn */
+.btn {
+  padding: var(--spacing-s) var(--spacing-l);
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: var(--radius-sm);
+}

@@ -75,3 +75,15 @@
 .p-xs {
     font-size: var(--fs-12);
 }
+
+@media (max-width: 767px) {
+
+
+
+}
+
+@media (max-width: 567px) {
+
+
+    
+}
