@@ -7,19 +7,13 @@
 }
 
 .logo {
-    background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/73cf206013997d2173d20441794095af8b1ee3b9/2025-week1/logo.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 105px;
-    height: 30px;
-    padding: var(--spacing-xs) var(--spacing-s);
+    display: inline-block;
     margin-right: var(--spacing-3xl);
-    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .header__nav {
     margin-right: auto;
-}   
+}
 
 .header__nav__list {
     display: flex;
@@ -38,6 +32,7 @@
 .user .bi {
     font-size: 18px;
 }
+
 
 
 /* site-main */
@@ -64,12 +59,12 @@
     color: var(--neutral-300);
 }
 
-.breadcrumb .breadcrumb__item:first-child {
+.breadcrumb .breadcrumb__item:not(:last-child) {
     color: var(--neutral-600);
 }
 
-.breadcrumb .breadcrumb__item:not(:first-child):hover {
-    color: var(--neutral-600);
+.breadcrumb .breadcrumb__item:last-child a {
+    cursor: default;
 }
 
 .site-main h1 {

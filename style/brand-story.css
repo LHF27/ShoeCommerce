@@ -14,7 +14,42 @@
 
 
 /* site-header */
+/* site-header */
 .site-header {
+    padding-top: var(--spacing-m);
+    padding-bottom: var(--spacing-m);
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: var(--spacing-3xl);
+}
+
+.header__nav {
+    margin-right: auto;
+}
+
+.header__nav__list {
+    display: flex;
+    gap: var(--spacing-2xl);
+}
+
+.header__nav__link {
+    padding: var(--spacing-s) 0;
+}
+
+.header__nav__link:hover,
+.user a:hover {
+    color: var(--neutral-600);
+}
+
+.user .bi {
+    font-size: 18px;
+}
+
+.top-banner {
     background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true");
     background-size: cover;
     background-position: center center;
@@ -138,13 +173,38 @@
 
 /* site-footer */
 .site-footer {
+    padding: var(--spacing-5xl);
     background-color: var(--neutral-100);
-    padding-top: var(--spacing-5xl);
-    padding-bottom: var(--spacing-5xl);
-    color: var(--neutral-600);
-    text-align: center;
 }
 
-.site-footer p:first-child {
+.footer__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: var(--spacing-l);
+    border-bottom: 1px solid var(--neutral-300);
+    margin-bottom: var(--spacing-xl);
+}
+
+.footer__nav__list {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2xl);
+}
+
+.footer__nav__link{
+    padding: var(--spacing-s);
+}
+
+.footer__nav__link:hover {
+    color: var(--neutral-600);
+}
+
+.copyright {
+    text-align: center;
+    color: var(--neutral-600);
+}
+
+.copyright p:first-child {
     margin-bottom: var(--spacing-xxs);
 }
